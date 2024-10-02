@@ -154,8 +154,8 @@ function myFunc(){
     // Checking of Player X finish
     // Checking for Player 0 starts, Is Jogador O ganhou! or
     // not and after that disabled all the other fields
-    else if ((b1 == '0' || b1 == '0') && (b2 == '0' ||
-        b2 == '0') && (b3 == '0' || b3 == '0')) {
+    else if ((b1 == 'O' || b1 == 'O') && (b2 == 'O' ||
+        b2 == 'O') && (b3 == 'O' || b3 == 'O')) {
         document.getElementById('print')
             .innerHTML = "Jogador O ganhou!";
         b4btn.disabled = true;
@@ -169,8 +169,8 @@ function myFunc(){
         b2btn.style.color = "red";
         b3btn.style.color = "red";
     }
-    else if ((b1 == '0' || b1 == '0') && (b4 == '0' ||
-        b4 == '0') && (b7 == '0' || b7 == '0')) {
+    else if ((b1 == 'O' || b1 == 'O') && (b4 == 'O' ||
+        b4 == 'O') && (b7 == 'O' || b7 == 'O')) {
         document.getElementById('print')
             .innerHTML = "Jogador O ganhou!";
         b2btn.disabled = true;
@@ -184,8 +184,8 @@ function myFunc(){
         b4btn.style.color = "red";
         b7btn.style.color = "red";
     }
-    else if ((b7 == '0' || b7 == '0') && (b8 == '0' ||
-        b8 == '0') && (b9 == '0' || b9 == '0')) {
+    else if ((b7 == 'O' || b7 == 'O') && (b8 == 'O' ||
+        b8 == 'O') && (b9 == 'O' || b9 == 'O')) {
         document.getElementById('print')
             .innerHTML = "Jogador O ganhou!";
         b1btn.disabled = true;
@@ -199,8 +199,8 @@ function myFunc(){
         b8btn.style.color = "red";
         b9btn.style.color = "red";
     }
-    else if ((b3 == '0' || b3 == '0') && (b6 == '0' ||
-        b6 == '0') && (b9 == '0' || b9 == '0')) {
+    else if ((b3 == 'O' || b3 == 'O') && (b6 == 'O' ||
+        b6 == 'O') && (b9 == 'O' || b9 == 'O')) {
         document.getElementById('print')
             .innerHTML = "Jogador O ganhou!";
         b1btn.disabled = true;
@@ -213,8 +213,8 @@ function myFunc(){
         b6btn.style.color = "red";
         b9btn.style.color = "red";
     }
-    else if ((b1 == '0' || b1 == '0') && (b5 == '0' ||
-        b5 == '0') && (b9 == '0' || b9 == '0')) {
+    else if ((b1 == 'O' || b1 == 'O') && (b5 == 'O' ||
+        b5 == 'O') && (b9 == 'O' || b9 == 'O')) {
         document.getElementById('print')
             .innerHTML = "Jogador O ganhou!";
         b2btn.disabled = true;
@@ -228,8 +228,8 @@ function myFunc(){
         b5btn.style.color = "red";
         b9btn.style.color = "red";
     }
-    else if ((b3 == '0' || b3 == '0') && (b5 == '0' ||
-        b5 == '0') && (b7 == '0' || b7 == '0')) {
+    else if ((b3 == 'O' || b3 == 'O') && (b5 == 'O' ||
+        b5 == 'O') && (b7 == 'O' || b7 == 'O')) {
         document.getElementById('print')
             .innerHTML = "Jogador O ganhou!";
         b1btn.disabled = true;
@@ -243,8 +243,8 @@ function myFunc(){
         b5btn.style.color = "red";
         b7btn.style.color = "red";
     }
-    else if ((b2 == '0' || b2 == '0') && (b5 == '0' ||
-        b5 == '0') && (b8 == '0' || b8 == '0')) {
+    else if ((b2 == 'O' || b2 == 'O') && (b5 == 'O' ||
+        b5 == 'O') && (b8 == 'O' || b8 == 'O')) {
         document.getElementById('print')
             .innerHTML = "Jogador O ganhou!";
         b1btn.disabled = true;
@@ -258,8 +258,8 @@ function myFunc(){
         b5btn.style.color = "red";
         b8btn.style.color = "red";
     }
-    else if ((b4 == '0' || b4 == '0') && (b5 == '0' ||
-        b5 == '0') && (b6 == '0' || b6 == '0')) {
+    else if ((b4 == 'O' || b4 == 'O') && (b5 == 'O' ||
+        b5 == 'O') && (b6 == 'O' || b6 == 'O')) {
         document.getElementById('print')
             .innerHTML = "Jogador O ganhou!";
         b1btn.disabled = true;
@@ -275,12 +275,12 @@ function myFunc(){
     }
 
     //checka empates
-    else if ((b1 == 'X' || b1 == '0') && (b2 == 'X'
-        || b2 == '0') && (b3 == 'X' || b3 == '0') &&
-        (b4 == 'X' || b4 == '0') && (b5 == 'X' ||
-            b5 == '0') && (b6 == 'X' || b6 == '0') &&
-        (b7 == 'X' || b7 == '0') && (b8 == 'X' ||
-            b8 == '0') && (b9 == 'X' || b9 == '0')) {
+    else if ((b1 == 'X' || b1 == 'O') && (b2 == 'X'
+        || b2 == 'O') && (b3 == 'X' || b3 == 'O') &&
+        (b4 == 'X' || b4 == 'O') && (b5 == 'X' ||
+            b5 == 'O') && (b6 == 'X' || b6 == 'O') &&
+        (b7 == 'X' || b7 == 'O') && (b8 == 'X' ||
+            b8 == 'O') && (b9 == 'X' || b9 == 'O')) {
         document.getElementById('print')
             .innerHTML = "Empate";
     }
